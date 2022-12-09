@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - c variables if else while 0
- * return: value 0
+ * main -prints if the number is positive,negative or 0
+ * Return: always 0
  */
 int main(void)
 {
