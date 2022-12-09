@@ -3,19 +3,18 @@
  * main - combputchar(n);ination of single digits
  * Return: always 0
  */
-	int main(void)
+int main(void)
 {
-	int n;
+	int r;
 
-	for (n = 47; n < 58; n++)
+	for (r = 0; r < 10; r++)
+	{
+		putchar(r + '0');
 
-	if (n != 57)
-{
-	putchar(n);
-	putchar(',');
-	putchar(' ');
-}									}
+	if (r < 9)
+		{
+			putchar(',');
+			putchar(' ');								}									}
 	putchar('\n');
 	return (0);
 }
-
