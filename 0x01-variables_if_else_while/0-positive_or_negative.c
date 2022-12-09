@@ -2,13 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-<<<<<<< HEAD
- * main - will print
- * Return: value 0
-=======
  * main -prints if the number is positive,negative or 0
  * Return: always 0
->>>>>>> f4c1ae2e8bce31206140fa9d07e8f7f5c80acf7c
  */
 int main(void)
 {
