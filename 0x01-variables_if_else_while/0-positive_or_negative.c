@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - c variables if else while 0
- * return: value 0
+ * main - will print
+ * Return: value 0
  */
 int main(void)
 {
