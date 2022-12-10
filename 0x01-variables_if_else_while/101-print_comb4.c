@@ -14,13 +14,18 @@ int main(void)
 
 	for (hund = '0'; hund <= '9'; hund++)
 {
-		for (tens = '0'; tens <= '9'; tens++)
+	for (tens = '0'; tens <= '9'; tens++)
 
 		{
-			for (ones = '0'; ones <= '9'; ones++)
+
+	for (ones = '0'; ones <= '9'; ones++)
 					{
-				if (!((ones == tens) || (tens == hund) || (hund > ones) || (tens > ones)))
-				{
+
+	if (!((ones == tens) || (tens == hund) || (hund == ones)))
+					{
+
+	if (!((hund > ones) || (tens > ones) || (hun > tens)))
+		{
 				putchar(hund);
 				putchar(tens);
 				putchar(ones);
@@ -30,7 +35,7 @@ int main(void)
 				putchar(' ');
 				}
 					} }
-					 }}
+					 }}}}
 					putchar('\n');
 					return (0);
 
