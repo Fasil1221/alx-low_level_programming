@@ -23,8 +23,7 @@ int main(void)
 
 	if (!((ones == tens) || (tens == hund) || (hund == ones)))
 					{
-
-	if (!((hund > ones) || (tens > ones) || (hund > tens)))
+		if (!((hund > ones) || (tens > ones) || (hund > tens)))
 		{
 				putchar(hund);
 				putchar(tens);
