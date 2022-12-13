@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - going to cheek if the char is lc and UC
+ * _isalpha - going to cheek if the char is lc and UC
  * @c: char
  * Return: 1 if the char is LC or UC, else 0
  */
