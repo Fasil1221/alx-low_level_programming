@@ -4,7 +4,7 @@
 *@num: the number up for test
 *Return: positive number
 */
-int _abs(int num);
+int _abs(int num)
 {
 	if (num >= 0)
 	{
