@@ -14,7 +14,7 @@
 		{
 			_putchar(SL);
 		}
-	_putchar('\n);
+	_putchar('\n');
 	}
 
 }
