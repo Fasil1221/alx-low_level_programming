@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  * _islower - going to cheek if the char is lc
+ * @c: char
  * Return: 1 if the char is  LC, else 0
  */
-int _islower(void)
+int _islower(char c)
 {
-	char c;
 
 	if (c >= 'a' && c <= 'z')
 	{
