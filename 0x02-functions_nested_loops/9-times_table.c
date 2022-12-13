@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* times_table - prints table, starting from 0
+* time_table - prints table, starting from 0
 */
-	void times_table(void)
+	void time_table(void)
 	{
 		int i, j, k;
 
