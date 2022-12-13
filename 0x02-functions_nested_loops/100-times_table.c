@@ -1,9 +1,10 @@
 #include "main.h"
 /**
 * main - check the code.
+* @n: is int
 * Return: Always 0.
 */
-int main(void)
+int main(int n)
 	{
 		print_times_table(3);
 		_putchar('\n');
