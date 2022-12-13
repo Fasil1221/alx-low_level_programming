@@ -4,7 +4,7 @@
  * @c: char
  * Return: 1 if the char is LC or UC, else 0
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
