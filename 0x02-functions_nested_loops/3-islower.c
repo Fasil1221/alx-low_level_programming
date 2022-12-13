@@ -4,7 +4,7 @@
  * @c: char
  * Return: 1 if the char is  LC, else 0
  */
-int _islower(char c)
+int _islower(int c)
 {
 
 	if (c >= 'a' && c <= 'z')
