@@ -4,7 +4,7 @@
  * from 0 to 14, followed by a new line.
  */
 void more_numbers(void)
-{	
+{
 int i;
 int j;
 
