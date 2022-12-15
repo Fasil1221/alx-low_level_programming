@@ -4,13 +4,15 @@
  * from 0 to 14, followed by a new line.
  */
 void more_numbers(void)
-{
+{	
 int i;
 int j;
 
+int z = 14;
+
 for (i = '0'; i <= '9'; i++)
 {
-for (j = '0'; j <= '14'; j++)
+for (j = '0'; j <= z; j++)
 {
 if (j >= 10)
 {
