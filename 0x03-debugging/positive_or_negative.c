@@ -5,12 +5,13 @@
  * main -prints if the number is positive,negative or 0
  * Return: always 0
  */
-	int positive_or_negative(void)
+	int positive_or_negative(int n)
 {
-	int n;
+	
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	/*srand(time(0));
+	 *n = rand() - RAND_MAX / 2;
+	 */
 
 	if (n > 0)
 	{
@@ -35,6 +36,6 @@
 
 	}
 
-	return (0);
+	return (n);
 
 }
