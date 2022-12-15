@@ -8,11 +8,11 @@ void more_numbers(void)
 int i;
 int j;
 
-int z = 14;
+/*int z = 14;*/
 
-for (i = '0'; i <= '9'; i++)
+for (i = 0; i < 10; i++)
 {
-for (j = '0'; j <= z; j++)
+for (j = 0; j <= 14; j++)
 {
 if (j >= 10)
 {
