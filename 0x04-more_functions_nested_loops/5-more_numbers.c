@@ -16,8 +16,8 @@ for (j = '0'; j <= z; j++)
 {
 if (j >= 10)
 {
-_putchar('l');
-_putchar(j % 10 + '0');
+_putchar((j / 10) + 48);
+_putchar((j % 10) + 48);
 }
 }
 _putchar('\n');
