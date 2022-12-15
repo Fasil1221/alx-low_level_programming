@@ -17,5 +17,8 @@ if (j >= 10)
 _putchar('l');
 _putchar(j % 10 + '0');
 }
-_putchar('\n);
 }
+_putchar('\n');
+}
+}
+
