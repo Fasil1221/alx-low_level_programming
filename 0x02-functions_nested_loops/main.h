@@ -1,3 +1,5 @@
+#ifndef main_h
+#define main_h
 /* i don't think i need 
  * a comment 
  * for this header
@@ -16,3 +18,5 @@ int add(int, int);
 void print_to_98(int n);
 void print_times_table(int n);
 void num(int r, int n);
+#endif
+
